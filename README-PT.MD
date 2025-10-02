@@ -1,4 +1,4 @@
-# AemConvertor
+### AemConvertor
 Um script Python simples para converter ficheiros .aem para .obj ou .obj para .aem. Basta arrastar um ficheiro ou caminho para a janela do script e pressionar Enter para iniciar a conversão.
 Funcionalidades na Versão Mais Recente
 Aem2obj (AEM para OBJ)
@@ -24,11 +24,11 @@ Método 2: Linha de Comando (Recomendado para Usuários Avançados)
  * Utilize o seguinte comando, substituindo [nome_do_ficheiro] pelo nome do ficheiro que pretende converter:
    Para converter de AEM para OBJ:
    python .\aemconvertor.py [nome_do_ficheiro].aem
-# Exemplo: python .\aemconvertor.py ship_001_terran.aem
-# O resultado será um novo ficheiro .obj na mesma pasta.
+#### Exemplo: python .\aemconvertor.py ship_001_terran.aem
+##### O resultado será um novo ficheiro .obj na mesma pasta.
 
    Para converter de OBJ para AEM:
    python .\aemconvertor.py [nome_do_ficheiro].obj
-# Exemplo: python .\aemconvertor.py minha_nave_modificada.obj
-# O resultado será um novo ficheiro .aem na mesma pasta.
+#### Exemplo: python .\aemconvertor.py minha_nave_modificada.obj
+###### O resultado será um novo ficheiro .aem na mesma pasta.
 
