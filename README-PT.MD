@@ -12,23 +12,34 @@ Aviso
  * Existem alguns bytes desconhecidos no ficheiro .aem que são preenchidos com '00' durante a conversão de OBJ. Isto pode causar efeitos secundários. Por favor, relate se encontrar erros.
 Instruções de Uso
 Requisitos
- * Python (para executar o script aemconvertor.py).
- * O script aemconvertor.py.
+ * Python (para executar o script main.py).
+ * O script main.py 1
  * Os modelos .aem (geralmente localizados em data/assets/main/3d/meshes/ships) ou os seus modelos .obj modificados.
 Método 1: Arrastar e Soltar (Mais Simples)
- * Localize o ficheiro aemconvertor.py no seu explorador de ficheiros.
+ * Localize o ficheiro main.py no seu explorador de ficheiros.
  * Arraste o ficheiro de modelo (.aem ou .obj) que deseja converter e solte-o no ícone do script aemconvertor.py.
  * O script será iniciado e converterá o ficheiro.
 Método 2: Linha de Comando (Recomendado para Usuários Avançados)
  * Abra o CMD ou Powershell na pasta onde se encontra o script aemconvertor.py.
  * Utilize o seguinte comando, substituindo [nome_do_ficheiro] pelo nome do ficheiro que pretende converter:
    Para converter de AEM para OBJ:
-   python .\aemconvertor.py [nome_do_ficheiro].aem
-#### Exemplo: python .\aemconvertor.py ship_001_terran.aem
+```terminal 
+   python .\main.py 1
+```
+#### Exemplo: 
+```terminal 
+    python .\main.py 1
+```
 ##### O resultado será um novo ficheiro .obj na mesma pasta.
 
    Para converter de OBJ para AEM:
-   python .\aemconvertor.py [nome_do_ficheiro].obj
-#### Exemplo: python .\aemconvertor.py minha_nave_modificada.obj
+```terminal
+   python .\main.py 2
+```
+#### Exemplo:
+```terminal
+   python .\aemconvertor.py
+```
+minha_nave_modificada.obj
 ###### O resultado será um novo ficheiro .aem na mesma pasta.
 
